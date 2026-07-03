@@ -169,22 +169,16 @@ function Product() {
 
                 <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequatur, optio sapiente atque commodi facere non
-                        dolorum voluptate eaque dolor amet saepe vitae doloremque
-                        sed aperiam quas aut exercitationem iure cumque? Id
-                        officia architecto praesentium iure quis, fugit, ipsum
-                        ducimus sit minima, officiis laboriosam esse.
-                        Recusandae repellat quaerat impedit consequatur vitae
-                        fugiat illum hic, iste accusamus architecto ad minus ex
-                        quisquam!
+                        This product is designed for a clean everyday look with
+                        reliable fabric, comfortable fitting, and easy styling.
+                        Pair it with your favorite essentials for casual outings,
+                        work days, or weekend plans.
                     </p>
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Magni sed enim tenetur consequatur, possimus in tempora
-                        a asperiores ea blanditiis obcaecati rerum repellendus
-                        nam earum, perferendis hic quia eos minima!
+                        Please choose your preferred size before adding it to
+                        the cart. Every order is quality checked before shipping
+                        and is eligible for our simple return and exchange policy.
                     </p>
                 </div>
 

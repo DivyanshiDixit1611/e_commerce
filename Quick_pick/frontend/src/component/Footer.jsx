@@ -8,7 +8,7 @@ function Footer() {
                 <div>
                     <img src={asset.logo} className='mb-5 w-32' alt=""/>
                     <p className='w-full md:w-2/3 text-gray-600'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam accusantium in cupiditate est temporibus, nobis consectetur laborum veritatis, id excepturi eum nostrum quas facilis, similique velit sit quae? Tempora, voluptatem.
+                    QuickPick brings together trendy, comfortable, and affordable fashion essentials so you can shop your favorite looks with confidence.
                     </p>
                 </div>
                 <div>
