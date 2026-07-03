@@ -29,4 +29,4 @@ app.use('/api/order',orderRouter)
     res.send('Api working')
  })
 
- app.listen(port,()=>console.log('Server started on Port:'+ port))
+export default app
