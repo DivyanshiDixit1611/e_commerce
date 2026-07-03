@@ -15,10 +15,16 @@ const port=process.env.PORT||4000
 //middlewares
 app.use(express.json())
 app.use(cors());
-connectDB()
 connectCloudinary() ;
 
-
+app.use('/api', async (req, res, next) => {
+    try {
+        await connectDB();
+        next();
+    } catch (error) {
+        res.status(500).json({ success: false, message: 'Database connection failed' });
+    }
+});
 
 //api endpoints
 app.use('/api/user',userRouter);
